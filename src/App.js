@@ -34,21 +34,21 @@ function App() {
             </div>
 
             <div className="row">
-              <CalcButton onClick={() => dispacth(applyNumber(1))} value={1} />
-              <CalcButton onClick={() => dispacth(applyNumber(2))} value={2} />
-              <CalcButton onClick={() => dispacth(applyNumber(3))} value={3} />
+              <CalcButton onClick={(e) => dispacth(applyNumber(e.target.value))} value={1} />
+              <CalcButton onClick={(e) => dispacth(applyNumber(e.target.value))} value={2} />
+              <CalcButton onClick={(e) => dispacth(applyNumber(e.target.value))} value={3} />
             </div>
 
             <div className="row">
-              <CalcButton onClick={() => dispacth(applyNumber(4))} value={4} />
-              <CalcButton onClick={() => dispacth(applyNumber(5))} value={5} />
-              <CalcButton onClick={() => dispacth(applyNumber(6))} value={6} />
+              <CalcButton onClick={(e) => dispacth(applyNumber(e.target.value))} value={4} />
+              <CalcButton onClick={(e) => dispacth(applyNumber(e.target.value))} value={5} />
+              <CalcButton onClick={(e) => dispacth(applyNumber(e.target.value))} value={6} />
             </div>
 
             <div className="row">
-              <CalcButton onClick={() => dispacth(applyNumber(7))} value={7} />
-              <CalcButton onClick={() => dispacth(applyNumber(8))} value={8} />
-              <CalcButton onClick={() => dispacth(applyNumber(9))} value={9} />
+              <CalcButton onClick={(e) => dispacth(applyNumber(e.target.value))} value={7} />
+              <CalcButton onClick={(e) => dispacth(applyNumber(e.target.value))} value={8} />
+              <CalcButton onClick={(e) => dispacth(applyNumber(e.target.value))} value={9} />
             </div>
 
             <div className="row">
