@@ -34,21 +34,21 @@ function App() {
             </div>
 
             <div className="row">
-              <CalcButton onClick={(e) => dispacth(applyNumber(e.target.value))} value={1} />
-              <CalcButton onClick={(e) => dispacth(applyNumber(e.target.value))} value={2} />
-              <CalcButton onClick={(e) => dispacth(applyNumber(e.target.value))} value={3} />
+              <CalcButton onClick={(e) => dispacth(applyNumber(parseInt(e.target.value)))} value={1} />
+              <CalcButton onClick={(e) => dispacth(applyNumber(parseInt(e.target.value)))} value={2} />
+              <CalcButton onClick={(e) => dispacth(applyNumber(parseInt(e.target.value)))} value={3} />
             </div>
 
             <div className="row">
-              <CalcButton onClick={(e) => dispacth(applyNumber(e.target.value))} value={4} />
-              <CalcButton onClick={(e) => dispacth(applyNumber(e.target.value))} value={5} />
-              <CalcButton onClick={(e) => dispacth(applyNumber(e.target.value))} value={6} />
+              <CalcButton onClick={(e) => dispacth(applyNumber(parseInt(e.target.value)))} value={4} />
+              <CalcButton onClick={(e) => dispacth(applyNumber(parseInt(e.target.value)))} value={5} />
+              <CalcButton onClick={(e) => dispacth(applyNumber(parseInt(e.target.value)))} value={6} />
             </div>
 
             <div className="row">
-              <CalcButton onClick={(e) => dispacth(applyNumber(e.target.value))} value={7} />
-              <CalcButton onClick={(e) => dispacth(applyNumber(e.target.value))} value={8} />
-              <CalcButton onClick={(e) => dispacth(applyNumber(e.target.value))} value={9} />
+              <CalcButton onClick={(e) => dispacth(applyNumber(parseInt(e.target.value)))} value={7} />
+              <CalcButton onClick={(e) => dispacth(applyNumber(parseInt(e.target.value)))} value={8} />
+              <CalcButton onClick={(e) => dispacth(applyNumber(parseInt(e.target.value)))} value={9} />
             </div>
 
             <div className="row">
